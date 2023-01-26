@@ -26,7 +26,7 @@ export const AddCategory = ( {onNewCategory} ) => {
     <form onSubmit={ onSubmit }>
         <input
             type='text'
-            placeholder="Buscar Gif"
+            placeholder="Ej: Dragon Ball, Naruto, Superman, Terror, etc."
             onChange={ onInputChange } // recibe 'event' implicitamente como argumento  
             value={inputValue}
         />
